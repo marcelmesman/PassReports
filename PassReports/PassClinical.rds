@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PassClinical_Leefh">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=CCG-RWK-PSRV01;Initial Catalog=PassClinical_Leefh</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>fbf3fce1-a371-42ec-a33d-aa14dff2538e</DataSourceID>
+</RptDataSource>

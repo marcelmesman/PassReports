@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PassClinical">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=CCG-RWK-PSRV01;Initial Catalog=PassClinical_31100_Erasme</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>7b1cd580-543e-4195-88eb-de9762c3cce5</DataSourceID>
+</RptDataSource>

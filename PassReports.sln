@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Leefh", "Leefh\Leefh.rptproj", "{BE638FFF-4AA5-41FC-A26C-543CCA693283}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Erasme", "Erasme\Erasme.rptproj", "{E55FAD05-EBA1-4023-9475-DFB4513A50BF}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Lissabon", "Lissabon\Lissabon.rptproj", "{88BB92A1-B63E-4EC8-88B4-86EE885499F9}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "UKFH", "UKFH\UKFH.rptproj", "{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Glasgow", "Glasgow\Glasgow.rptproj", "{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://omn-dv03:8080/tfs/ins
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Leefh\\Leefh.rptproj
+		SccProjectName1 = Leefh
+		SccLocalPath1 = Leefh
+		SccProjectUniqueName2 = Erasme\\Erasme.rptproj
+		SccProjectName2 = Erasme
+		SccLocalPath2 = Erasme
+		SccProjectUniqueName3 = Lissabon\\Lissabon.rptproj
+		SccProjectName3 = Lissabon
+		SccLocalPath3 = Lissabon
+		SccProjectUniqueName4 = UKFH\\UKFH.rptproj
+		SccProjectName4 = UKFH
+		SccLocalPath4 = UKFH
+		SccProjectUniqueName5 = Glasgow\\Glasgow.rptproj
+		SccProjectName5 = Glasgow
+		SccLocalPath5 = Glasgow
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Debug|Default.ActiveCfg = Debug
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Debug|Default.Build.0 = Debug
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Debug|Default.Deploy.0 = Debug
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.DebugLocal|Default.Build.0 = DebugLocal
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Release|Default.ActiveCfg = Release
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Release|Default.Build.0 = Release
+		{BE638FFF-4AA5-41FC-A26C-543CCA693283}.Release|Default.Deploy.0 = Release
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Debug|Default.ActiveCfg = Debug
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Debug|Default.Build.0 = Debug
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Debug|Default.Deploy.0 = Debug
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.DebugLocal|Default.Build.0 = DebugLocal
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Release|Default.ActiveCfg = Release
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Release|Default.Build.0 = Release
+		{E55FAD05-EBA1-4023-9475-DFB4513A50BF}.Release|Default.Deploy.0 = Release
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Debug|Default.ActiveCfg = Debug
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Debug|Default.Build.0 = Debug
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Debug|Default.Deploy.0 = Debug
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.DebugLocal|Default.Build.0 = DebugLocal
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Release|Default.ActiveCfg = Release
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Release|Default.Build.0 = Release
+		{88BB92A1-B63E-4EC8-88B4-86EE885499F9}.Release|Default.Deploy.0 = Release
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Debug|Default.ActiveCfg = Debug
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Debug|Default.Build.0 = Debug
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Debug|Default.Deploy.0 = Debug
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.DebugLocal|Default.Build.0 = DebugLocal
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Release|Default.ActiveCfg = Release
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Release|Default.Build.0 = Release
+		{5B7EC550-67D6-44D0-B8AE-62FB25D28A99}.Release|Default.Deploy.0 = Release
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Debug|Default.ActiveCfg = Debug
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Debug|Default.Build.0 = Debug
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Debug|Default.Deploy.0 = Debug
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.DebugLocal|Default.Build.0 = DebugLocal
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Release|Default.ActiveCfg = Release
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Release|Default.Build.0 = Release
+		{C3FC4B52-AA59-4868-9EC8-BD5F2DA16A9A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

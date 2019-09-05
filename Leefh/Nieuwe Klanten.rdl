@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="table1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.33444in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.9375in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.21875in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.10417in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.22in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Voornaam</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Achternaam</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Postcode Client</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Geboortedatum</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Type</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Datum ontvangen AMC</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox8">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>DNA Nummer</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Datum informed consent</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox9</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Datum onderzoek aangevraagd</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Resultaat</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#cb0208</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.21in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Voornaam">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Voornaam.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Voornaam</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Achternaam">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Achternaam.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Achternaam</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Postcode_Client">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Postcode_Client.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Postcode_Client</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Geboortedatum">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Geboortedatum.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Geboortedatum</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Type">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Type.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Type</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Datum_ontvangen_AMC">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Datum_ontvangen_AMC.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Datum_ontvangen_AMC</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="DNA_Nummer">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!DNA_Nummer.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>DNA_Nummer</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Datum_informed_consent">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Datum_informed_consent.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Datum_informed_consent</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Datum_onderzoek_aangevraagd">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Datum_onderzoek_aangevraagd.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Datum_onderzoek_aangevraagd</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Resultaat">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Resultaat.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Resultaat</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="table1_Details_Group">
+                <DataElementName>Detail</DataElementName>
+              </Group>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+              <DataElementName>Detail_Collection</DataElementName>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.05556in</Top>
+        <Left>0.26176cm</Left>
+        <Height>0.43in</Height>
+        <Width>15.09486in</Width>
+        <Style />
+      </Tablix>
+    </ReportItems>
+    <Height>0.86291in</Height>
+    <Style />
+  </Body>
+  <Width>15.19792in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="PassClinical">
+      <DataSourceReference>PassClinical</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>b9945d4c-8eb4-424d-b134-ff29a5efc5d7</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>PassClinical</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@CreatedFrom">
+            <Value>=Parameters!CreatedFrom.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@CreatedTill">
+            <Value>=Parameters!CreatedTill.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SELECT      
+       N.FirstName AS Voornaam,  
+       N.LastName AS Achternaam,
+       ADDR.ZipCode AS [Postcode Client],     
+       CONVERT(VARCHAR,  C.BirthDate, 105) AS Geboortedatum,
+      
+       CASE C.CustomerType
+             WHEN 0 THEN 'Client'
+             WHEN 1 THEN 'Index'
+             WHEN 2 THEN 'EV Diagnostiek'
+             WHEN 3 THEN 'Complexe diagnostiek'
+             ELSE ''
+       END
+       AS [Type],
+      
+       CONVERT(VARCHAR,  C.DateCreated, 105) AS [Datum ontvangen AMC],
+      
+       STUFF(
+             (SELECT ',' + CDNAD.DNAnumber
+                    FROM CustomerDNADiagnostic CDNAD
+             -- uncomment this line if you are going
+             -- to aggregate only by something in the outer query
+                    WHERE CDNAD.CustomerID = C.CustomerID
+                    FOR XML PATH(''),
+                    TYPE,
+                    ROOT
+             ).value('root[1]','varchar(max)'),
+       1,
+       1,
+       '')
+       AS [DNA Nummer],
+      
+       CONVERT(VARCHAR,  CIC.SignedDate, 105) AS [Datum informed consent],
+      
+       STUFF(
+             (SELECT ',' + CONVERT(VARCHAR,  CDNAD.RequestDate, 105)
+             FROM CustomerDNADiagnostic CDNAD
+             -- uncomment this line if you are going
+              -- to aggregate only by something in the outer query
+             WHERE CDNAD.CustomerID = C.CustomerID
+               FOR XML PATH(''),
+              TYPE,
+              ROOT
+             ).value('root[1]','varchar(max)'),
+       1,
+       1,
+       '')
+       AS [Datum onderzoek aangevraagd],
+      
+       STUFF(
+             (SELECT ',' + CASE CDNAD.Positive
+                             WHEN 1 THEN 'Positive'
+                             WHEN 0 THEN 'Negative'
+                             ELSE NULL
+                           END
+             FROM CustomerDNADiagnostic CDNAD
+             -- uncomment this line if you are going
+              -- to aggregate only by something in the outer query
+             WHERE CDNAD.CustomerID = C.CustomerID
+              FOR XML PATH(''),
+              TYPE,
+              ROOT
+             ).value('root[1]','varchar(max)'),
+       1,
+       1,
+       '')
+       AS [Resultaat]
+      
+       FROM Customer AS C
+       INNER JOIN Name AS N
+             ON C.NameID = N.NameID
+       LEFT JOIN CustomerInformedConsent AS CIC
+             ON C.CustomerID = CIC.CustomerID
+       LEFT JOIN [Address] AS ADDR
+             ON C.AddressId = ADDR.AddressId
+ 
+       WHERE C.DateCreated &gt;= @CreatedFrom AND  C.DateCreated &lt;= @CreatedTill
+
+	   ORDER BY Achternaam</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="Voornaam">
+          <DataField>Voornaam</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Achternaam">
+          <DataField>Achternaam</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Postcode_Client">
+          <DataField>Postcode Client</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Geboortedatum">
+          <DataField>Geboortedatum</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Type">
+          <DataField>Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Datum_ontvangen_AMC">
+          <DataField>Datum ontvangen AMC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DNA_Nummer">
+          <DataField>DNA Nummer</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Datum_informed_consent">
+          <DataField>Datum informed consent</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Datum_onderzoek_aangevraagd">
+          <DataField>Datum onderzoek aangevraagd</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Resultaat">
+          <DataField>Resultaat</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="CreatedFrom">
+      <DataType>DateTime</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>=DateSerial(Year(DateTime.Now)-1,Month(DateTime.Now),Day(DateTime.Now))</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Klant aangemaakt van</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="CreatedTill">
+      <DataType>DateTime</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>=Today()</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>t/m</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo3">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQEAYABgAAD/4QBmRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAAExAAIAAAAQAAAATgAAAAAAAABgAAAAAQAAAGAAAAABcGFpbnQubmV0IDQuMC41AP/bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoIBwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIAC4AqAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP367VC9wsQyzKv1NeR/tqftkeFf2HPg
+hf8AjXxTLJIsRFvYWMLD7RqVywJSGMHjJwSSeFVWPbB/Bn9rz/grV8Zv2u/EVy194o1Dwz4beQi30PRLl7W3jj7LKykSTNjkmQkZ6Ko4Hi5pnlDBe7L3pdl+vY/VvDrwhzji5yrYa1OhF2dSV7X6qKWsmuuy8z+kD7dCPm86LH+8Kk8wMqnrX8vvjf8AZm+KnwH+EvhH4sanYapougeNG3aTq0V5tmlJBdC21t8fmIC6FsblBI6V9HfsE/8ABc74nfsz+JrHSvH2pal8QfArOqXEd9L5+p2CZA8yGdjufH/POUkEDAKdR5tDiul7RU8TTdO/Xf57LQ+7zb6OWNWBljcixsMXyuScUuV3i7NJqUk2mmmm0fvvkUYwa5z4X/EvRfjH4A0nxP4d1GDVdD1y2S7s7qFvlkjcZB9QexBwQQQQCDXyH/wVt/a3+IX7MfxL+A9h4J8Qf2Pa+NPEp07WIzZwXBu4PNtV2ZlRinEr8oVPzDngV9HiMXCjS9tLVabebS/U/Csl4exWZ5ksrpWjUfN8V0k4xcmno2nZNbb9j7gAz9aTpUMErNFGzdSoJ9+K4z9ob476H+zP8GPEXjnxJNJFo/hu0a7uPL+aSXGFSNAeru5VFGRlmFbyqKEXKT0R5OHw9WvWjh6MXKcmopLVtt2SXq9juAuegoHA6cV+Xnw9+PP7dX7fWit49+G8ngv4W+B7uR20e01KNJZtThViAweSCZnzjG/bCrclRjk+v/8ABPn/AIKPeOvHPx/1j4E/Hbw/a+Gfipo8JubO5tPlttahUbiVUMy79nzho2KOofhChU+bSzSnKUYuLipaRbVk/T16XSPuMy8O8wwtCrVVWlUnRV6lOE+acFpdyVkmot2lyuVnufc3Skxk/wCea+Xv+Cmf/BQ6P9g/4daOuk6OfFHj7xpdHT/DmjAsRcSjaGkcL8zIrSRrtXDM0iKCASy/NF/rP/BRzwt4abx5NL4D1S3ii+2S+DIbaFrhUHzG
+MbUDM2M/KtyzHoMtgHSvmMKc3TSlJreyvb1/y3ObKOBcXjsJDHVK1KhCbah7WfK5tOz5VZ6J6Nu0b6XP03BwaceT7188f8E5f28tJ/b/APgUvia1s20bXdMuDp2t6YzljZXKqGypIBZHVgykjjlTypr5C/a++OP7T3jr/gqprXwd+EfxO0/wrZPo1vqtjBf2cDW8KCBDIC5tZZNzSbiM5HOOKmtmVOnSjVgnJSaStvd+rXYeU8C43F5liMsxE40J4eEpzdRvlSi0nrFSvummlZrVH6hdDTgMV+dngb9mf/goFYeNdHm1v46eA7zRbe9hkv4I7aPfPbh1MiL/AMS5eWTcB8w5PUda9R/4LV/tC+NP2ZP2KpvE3gfXJ/D+vJq9nbfa4oo5G2OzblxIrLzgdvyq/r1qUqtSDioq+trv0s2Z/wCp6nmWHy3B4ulWlWfKnBytFtpK/NGL1v0TPsLHNAPIrkvgprt54l+EPhjUr64a4vNQ0q1uLiY/8tHaJWZuMAZJJ4AFfIf/AAVI/ak8ffAb9rz9lzw34T8SXGjaP488T/YNetY4YpBqEH23TYtjF1Zl+SaUfIQfnJzxW2IxMaVL2r20/FpfqeVlPD9bH495fSaUkpu7vb3Iyk+l9VF28z7ropsLbolPqAadXSeEFFFFAH4P/wDBxd8f774hftp2/gcXDDRvh/psKiDPyi7ukWaR/cmJoFx22k9zXzF+wB+yjeftnftW+FPAsSyLp91cfadXmTI+zWMWHmbI+6SB5ak/xunqa91/4OBfhje+B/8Ago94g1iaNltfGWm2Op2sn8LCOBbRwD6g2/I7BlPevpT/AINfvC2gz/8AC1tZKwyeJIWsLNS2PMt7RhK+F74eRfm94l9K/MZYV4rO5Uq23M/uWqXzSR/oBRz6HDvhPSzDK173sYarpOdoyb/wzbb81Y+/f20P2NtE/ag/Y91z4Zx29rYRtp6R6M6ptj064gUG2ZcfdRWVVIXqhZe9
+fzReKvC2oeCvE+oaPqlnNZanpF1LZ3dtKu2SCaN9jxsOxVgR7mv60mG9SPzr+ef/AILz+GdC8Mf8FI/FY0SOCOS/srK81OKP7qXbxYbIHQugRz3JkJ6mvW4wwcPZQxK3Tt8tWvu/U/Mfov8AFmJWY4jIqt5U5xdRPflkmk//AAJNfNI+0P8Ag2Y+P1/4r+Enjv4d3tw81v4Su7fUdNDPnyorvzBJGvoqyws+PWY10f8AwXs4+Mn7Lv8A2Of/ALXs680/4Nf/AIZX0dv8VvGE0brp872OkW0n8MksYlllH1VZYD/wOvSv+C9gI+Mn7Lv/AGOf/tezrooym8kTn5fdzK34Hk5vRwtLxcqxwlre+3bbmdCTl87tt+dz9IrUDyI/90fyr4r/AODgCVof+CZ/i5VYqsmoaYrgfxD7ZCefXkA/gK+1LTmCP/dH8q+Kv+DgT/lGl4q/7COm9v8Ap7ir3c0/3Or/AIX+R+L+Hdv9aMDzf8/Yf+lI9J/ZI/aV+F/hT9l34d6TJ468E6fJp/hrTrd7Z9ZtozbsttGu0gvkEEYwR2rtvFP7Hnw/8c/tK+Hfi9faPLN468M2hs9N1JLyaNYoWEoKtGrCN8ieQZYE/N7V8m/s+f8ABDP9nf4j/Arwbr2p+GdXm1LWtEs765kj1y6VXkkgR2YAPgAsxwBxX3jN4u0XRtctdFm1Sxg1S6T/AEezkuEWeZQDyqE7mHytyB/CfSnhPaTpJYmMbK1tb69N0rPaxtxJPA4XHVJZFXqylL2iqc0VHR7pOMndO7TvbReZ+dH/AAUt1vT9L/4LH/s0ya5dWlro9jBJcvJdypHbwMJJCHZmwFwyJgk9QPSvvzwr8evA/jjVodL0bxd4b1bUJwdlrZ6lDPK4AJJCK5JwASTjoDX5y/8ABW74M6H+0F/wVg/Z/wDBviWCa40PxFpstteJFMYXdPMlYBXXkHIHPvX1R+zX/wAEgfgn+yr8XtM8deD9G1az8QaQkq28
+s+qz3EaiSJo3+RiRyrt9DXHg54hYqsoRTjzK7bs/hWysz6niWhk8uHssniqs41lQlyxjFOLftJ2vJyTV3o7J9z1D9nr9jfwD+y74u8aa14L0m402+8f3w1HWS95LNFNMHlcFEdisYzM/CADGB2FfEPiPxnpHgH/g4mutQ1zVNP0exXwYqG4vblIIwTEuBucgZPpX6O6B410fxPfXttpmqaff3Gmv5V1Fb3CSvavkja6qSVOVYYOPun0r8sP2mP2X/Cf7X3/Bee/8GeNbO6vtDuPCUV00UFw1uxkjiXad6kHv0p5pHlp0vYJfHGy2V9exh4d13isdmE83qStLC1FKVuaSSUErJtXskrXex+nngz40+EfiNqcln4f8T+H9bu4Y/OkgsdQiuJETIUsVRiQuSBk8ZIr45/4OKz/xryuf+w/Yf+hPXsn7JH/BL74S/sTfEC88TeA9L1Ox1fULJtOme41KW5VoWkjcgK5IB3Roc9cAivG/+Diw4/4J43Hr/b9h/wChPW2Ye1eAqOpFKXK9E7r77I83g2jgKfGOCjl05Tpe0hZyioy310Ta9NT1T4Gf8FEfgTonwZ8L2d58Xfh3a3VnpFrDPFL4gtVMTrCgZWBk4IOQQeeK+P8A/gqJ+0j4B/aD/bu/ZBbwN4w8N+KxpPjRBenStQiu/sxk1DS9m/y2O3dsfGcZ2N6V758G/wDgij+zL4r+E3hnVL74brPe6hpdrcTy/wBu6kvmO8SszfLOAMkk4AAr5g/4KB/sPfC/9i/9u79kmP4beGf+EdXxJ4zhbUP9Pubr7R5Goab5X+ukfbt82T7uM7jnoK4MZLGfVo+0UeW8Nm7/ABRto0kfY8L0+F1ntR4CpXdbkr2U4U1H+FUvdqbdrXtpvvY/YGD/AFCf7op1Ng/1Cf7op1fTH4LLcKKKKBHyX/wVg/4Jx2v/AAUF+B8Vvp8lvp/jjw0XudCvJh+6dmA320pGSI5Nq/MBlWVW5AKn8T/gx8Zf
+jB/wSe/aZuLj+zbrw34is1Npqej6rCxttTty2cNhgHQldySxt1GVYgkH+mBmUE8dK4v4wfs9+B/2g9DjsfGnhXQfE9jGS0cWpWUdx5TEYLKWBKt7qQfevn8yyNYiqsRQlyVF17/1+R+0eH/i7UyTL55Fm1BYnBTv7jesb72vdNN62dtdU0flD43/AODnzxNqngaS00H4WaXpOvyRbBfXWtveW8L4wWEKwxlueQPMGO+a+LPgR+zT8XP+Cn37QuoXOnw32uatrV6bnXfEF2pWzsN5yzSSAbVwPuRKNxCgKuBx+5ekf8Ed/wBmvStaGoQ/CnQWmB3hJ5JpoR3/ANU7mP8ADbivoDwL8PdC+GHhu10fw7o+m6HpVouyCzsbZLeGIeiogAH4CuF5Di8TNfX6vNFdF/wyX4M+uoeMnDPD2HqrgzLXSrVFZzqO9vTWTaT1Sule172OF/Y+/ZY8P/sbfADQfAPh1S9rpMOZ7qRQst9csd0s8mP4nY5xk7VCqOFFfC3/AAcN+Lv+EJ+IH7OeqyaffalDpHiG51SSK2Tc8qwSWTmNeg3MPu5PJBr9PUCsOlNmt45h80aNjpuUHFe9i8HGphnh4PlWltL2s09vkfi/DvFlXL89jnuLi68rzck5crk5xlFvms7P3r7H5zR/8HEfhdI1X/hTnxX+UAZ+wxf/ABdfRXx0+Hlj/wAFQ/8AgnldaakF54d/4T7R4NR09NQTbPp86lJ4POC5OBIqhwvO3cO9fRzWcKrnyo/++RS4VflVVA+lFPCVXFxrz54tWtZL9TTHcRZbCrRxOS4R4erTmpKXtJT1Wq0aSWtmfld8Av8Agpv8W/8Agn58NLD4U/F74IeNda1TwnAum6Rq+kRGWHU7eMbYk3bTG+1FC743YkAbkDAluz/YZ+BnxW/bL/bwX9p74teGZ/Ael+H9PfTvB+gXCstyiMske51YB9qrLMdzopkaVWVVVQK/R6W2jc/NGrY5yVBpxiCgAYHp
+gVjTy2d4+0qOUYu6TS3W13u7HrY3jzDSpV54HAwo166calRSk9JfEoRbtDm2dr6NpWPh7/gr1+x148+K134B+LvwmijvPiL8I703cNgSM6pblkcoBkB2Rk/1ZI3pJIAS20Hyy/8A+C6nxA1vwi3hvRf2c/iD/wALTliNsLGezma0t5/u+YwCCVlDfNsKpxwXH3q/TREDg/4U3yYw2di5/wB2qq5fN1XUoVHHm30Tv0ur7Oxy5ZxlhY4Glgs1wUcQqN/ZtylBxTd3GXL8Ub3aTs1d2dmfHf8AwR7/AGJvFH7KXwn8TeIviDKr/Ej4n6mdZ1xFZW+y/eKRuV+Vn3SSu5U7Q0pUfdyfNbXwVqx/4OHbjWv7J1L+xz4MEYvvsz/Zi/lAbfMxsz2xnNfogqLz8q/lSMihs7Ru9cVby+moU6cW0otPve19/W5zU+OMTLHY3MK0FKWJpzptLRRUkkrLXSKSSXbdjh0r4e/4L9+CtY8dfsE3Fjoek6lrV82u2L/Z7G1e5l2hny2xATgcZNfcKtz/ALtMlVT94bvb1rpxWH9vRlS2umvvPD4dzeeVZlRzGEeZ05KVm7J2d7X1OO+AVvLZfA7wfDcRSQzQ6NaJJG6bWjYQoCCDyCDkY618Sf8ABYb4f694x/be/Y/vtJ0TVtSstJ8YeZfz2dpJNFZJ9v0tt8rKpCLhHOWwMKTX6HBsZx2xSSKvmLlc+h9KnEYT2tH2T02/Bp/odOS8QTwGZvMoQUm1UVr2+OMo726c1/kPh4hX6CnUA5orqPnQooooA//Z</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>2e0933af-8aa3-40d3-b9f0-d3925bd6dabf</rd:ReportID>
+</Report>
