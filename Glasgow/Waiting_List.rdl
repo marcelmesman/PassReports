@@ -115,7 +115,7 @@
 						FROM CustomerAppointmentCustomers CAC
 							INNER JOIN CustomerAppointment CA 
 								ON CA.CustomerAppointmentID = CAC.CustomerAppointmentId
-						WHERE CAC.CustomerId = C.CustomerID)
+						WHERE CAC.CustomerId = C.CustomerID AND KindOfCancelled IS NULL)
 	FROM Customer C
 )X1
 	INNER JOIN Customer Cust 
@@ -130,7 +130,7 @@
 		ON TE.EmployeeId = EMP.EmployeeID 
 	LEFT JOIN Clinics AS CLN
 		ON CLN.Id = T.ClinicAllocatedId
-WHERE LastTriage IS NOT NULL
+WHERE  LastTriage IS NOT NULL
 	AND (LastAppointment IS NULL OR (LastAppointment &lt; LastTriage))
 	AND (@DiagnosticGroup IS NULL OR @DiagnosticGroup IN (SELECT TD.DiagnosticGroupId FROM TriageDiagnosis TD WHERE TD.TriageId = T.Id ))
 	AND (@PatientContactType IS NULL OR (T.AllocatedToId = @PatientContactType))
