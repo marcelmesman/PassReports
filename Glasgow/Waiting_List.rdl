@@ -115,7 +115,7 @@
 						FROM CustomerAppointmentCustomers CAC
 							INNER JOIN CustomerAppointment CA 
 								ON CA.CustomerAppointmentID = CAC.CustomerAppointmentId
-						WHERE CAC.CustomerId = C.CustomerID AND KindOfCancelled IS NULL)
+						WHERE CAC.CustomerId = C.CustomerID )
 	FROM Customer C
 )X1
 	INNER JOIN Customer Cust 
